@@ -52,3 +52,5 @@ Enterprise readiness is defined by predictability, traceability, and structural 
 ---
 
 Engineering excellence is defined by structural independence from individuals and seamless operability by both humans and machines.
+
+![Metrics](assets/metrics.svg)
