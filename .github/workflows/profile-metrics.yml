@@ -21,9 +21,17 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           user: CybotTM
           template: classic
+          config_display: large
           filename: assets/metrics.svg
-          base: header, activity, community, repositories
           config_timezone: Europe/Berlin
+          base: header, activity, community, repositories
+          plugin_lines: yes
+          plugin_repositories: yes
+          plugin_followup: no
+          plugin_stars: yes
+          plugin_achievements: no
+          plugin_languages: no
+          plugin_activity: yes
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
